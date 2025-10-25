@@ -1,5 +1,31 @@
-# BEPs
-
+#binance BEPs
+Instructions:									
+	Notes	1. Don't delete or add columns.	
+	2. Don't delete the first two rows.	
+	3. You can transfer to up to 250 payees daily. A single file can have records up to 250 as well.	
+	4. Only support uploading excel files within 1MB.	
+		
+		
+	Field Requirements	Filed Name	Is Required?	Requirements	
+	Account Type	Required	Possible Values: Binance Registered Email, Binance ID (BUID)	
+	Recipient's Account Information	Required	Recipients must use this account information to log in to our binance platform.	
+	Crypto Currency	Required	Required only crypto-token accepted, fiat NOT supported, e.g., "USDT". All the transfers under this batch must use the same currency.	
+	Amount	Required	Minimum 0.5 USD equivalent	
+										
+	Sample:									
+	Account Type	Recipient's Account information (Required)	Crypto Currency (Required)	Amount (Required)						
+	Binance Registered Email	hailuu01041990@gmail.com	USDT	550						
+	Binance ID (859126465)	2323131412	USDT	550						
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
 BEP stands for BNB Evolution Proposal. Each BEP will be a proposal document providing information to the BNB Chain ecosystem and community.
 
 Here is the list of subjects of BEPs:
